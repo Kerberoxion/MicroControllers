@@ -1,0 +1,45 @@
+<circuit version="1.1.0-SR1" rev="2005" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Hd44780" CircId="Hd44780-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-432,-8" rotation="0" hflip="1" vflip="1" label="Hd44780-1" idLabPos="70,-82" labelrot="0" valLabPos="-16,20" valLabRot="0" Rows="2" Cols="16" />
+
+<item itemtype="MCU" CircId="mega168-2" mainComp="false" Show_id="true" Show_Val="false" Pos="-60,-48" rotation="0" hflip="1" vflip="1" label="mega168-2" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Program="../DigitTerm/DigitTerm/Debug/DigitTerm.hex" Auto_Load="false" saveEepr="true" Logic_Symbol="false" Rst_enabled="false" Ext_Osc="false" Wdt_enabled="false" Clk_Out="false" varList="PORTC,PORTD,R16,R17,R18,R19,R20,R21,R22,R23,TWCR" MainMcu="true" SerialMon="-1" />
+
+<item itemtype="DS1621" CircId="DS1621-3" mainComp="false" Show_id="false" Show_Val="false" Pos="104,-16" rotation="-360" hflip="1" vflip="1" label="DS1621-3" idLabPos="-24,-28" labelrot="0" valLabPos="-16,20" valLabRot="0" Temp="30 °C" TempInc="1 °C" />
+
+<item itemtype="Ground" CircId="Ground-20" mainComp="false" Show_id="false" Show_Val="false" Pos="164,16" rotation="0" hflip="1" vflip="1" label="Ground-20" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Ground" CircId="Ground-28" mainComp="false" Show_id="false" Show_Val="false" Pos="-408,84" rotation="0" hflip="1" vflip="1" label="Ground-28" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Node" CircId="Node-49" mainComp="false" Pos="164,-16" />
+
+<item itemtype="Node" CircId="Node-50" mainComp="false" Pos="164,-24" />
+
+<item itemtype="Connector" uid="Connector-1" startpinid="Hd44780-1-PinRS" endpinid="mega168-2-PORTD0" pointList="-416,0,-416,28,-112,28,-112,-32,-68,-32" />
+
+<item itemtype="Connector" uid="Connector-13" startpinid="Hd44780-1-PinEn" endpinid="mega168-2-PORTD1" pointList="-400,0,-400,44,-100,44,-100,-24,-68,-24" />
+
+<item itemtype="Connector" uid="Connector-86" startpinid="Hd44780-1-PinRW" endpinid="Ground-28-Gnd" pointList="-408,0,-408,68" />
+
+<item itemtype="Connector" uid="Connector-87" startpinid="Hd44780-1-dataPin4" endpinid="mega168-2-PORTD4" pointList="-360,0,-360,80,-80,80,-80,0,-68,0" />
+
+<item itemtype="Connector" uid="Connector-88" startpinid="mega168-2-PORTD5" endpinid="Hd44780-1-dataPin5" pointList="-68,40,-76,40,-76,92,-352,92,-352,0" />
+
+<item itemtype="Connector" uid="Connector-89" startpinid="mega168-2-PORTD6" endpinid="Hd44780-1-dataPin6" pointList="-68,48,-72,48,-72,100,-344,100,-344,0" />
+
+<item itemtype="Connector" uid="Connector-90" startpinid="Hd44780-1-dataPin7" endpinid="mega168-2-PORTD7" pointList="-336,0,-336,108,-68,108,-68,56" />
+
+<item itemtype="Connector" uid="Connector-145" startpinid="DS1621-3-in4" endpinid="Node-49-0" pointList="144,-8,164,-8,164,-16" />
+
+<item itemtype="Connector" uid="Connector-146" startpinid="Node-49-2" endpinid="Ground-20-Gnd" pointList="164,-16,164,0" />
+
+<item itemtype="Connector" uid="Connector-148" startpinid="DS1621-3-in3" endpinid="Node-50-0" pointList="144,-16,164,-16,164,-24" />
+
+<item itemtype="Connector" uid="Connector-149" startpinid="Node-50-2" endpinid="Node-49-1" pointList="164,-24,164,-16" />
+
+<item itemtype="Connector" uid="Connector-147" startpinid="DS1621-3-in2" endpinid="Node-50-1" pointList="144,-24,164,-24" />
+
+<item itemtype="Connector" uid="Connector-198" startpinid="DS1621-3-in1" endpinid="mega168-2-PORTC5" pointList="72,-16,72,-24,4,-24,4,-40,-20,-40" />
+
+<item itemtype="Connector" uid="Connector-199" startpinid="DS1621-3-in0" endpinid="mega168-2-PORTC4" pointList="72,-24,72,-32,-20,-32" />
+
+</circuit>
