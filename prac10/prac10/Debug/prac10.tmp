@@ -1,0 +1,33 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega168"</DEVICE>
+ <WORKING_DIR>C:\Users\User\Documents\Atmel Studio\7.0\prac10\prac10\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac10\prac10\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m168def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac10\prac10\Debug\prac10.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>prac10.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>prac10.map</FILE>
+  <FILE>prac10.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <byte><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac10\prac10\main.asm</FILE><LINE>11</LINE></byte>
+  <RESET><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac10\prac10\main.asm</FILE><LINE>16</LINE></RESET>
+  <delay><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac10\prac10\main.asm</FILE><LINE>56</LINE></delay>
+  <wait_adc><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac10\prac10\main.asm</FILE><LINE>40</LINE></wait_adc>
+  <start><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac10\prac10\main.asm</FILE><LINE>53</LINE></start>
+  <loop1><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac10\prac10\main.asm</FILE><LINE>58</LINE></loop1>
+  <loop2><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac10\prac10\main.asm</FILE><LINE>60</LINE></loop2>
+ </LABELS>
+</ASSEMBLER_INFO>

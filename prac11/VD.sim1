@@ -1,0 +1,33 @@
+<circuit version="1.1.0-SR1" rev="2005" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="MCU" CircId="mega168-1" mainComp="false" Show_id="true" Show_Val="false" Pos="692,472" rotation="0" hflip="1" vflip="1" label="mega168-1" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Program="prac11/Debug/prac11.hex" Auto_Load="false" saveEepr="true" Logic_Symbol="false" Rst_enabled="false" Ext_Osc="false" Wdt_enabled="false" Clk_Out="false" varList="PORTB" MainMcu="true" SerialMon="-1" />
+
+<item itemtype="Resistor" CircId="Resistor-2" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="800,460" rotation="90" hflip="1" vflip="1" label="Resistor-2" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="240 Ω" />
+
+<item itemtype="Led" CircId="Led-3" mainComp="false" Show_id="false" Show_Val="false" Pos="800,504" rotation="90" hflip="1" vflip="1" label="Led-3" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Battery" CircId="Battery-5" mainComp="false" Show_id="false" Show_Val="false" Pos="840,412" rotation="0" hflip="1" vflip="1" label="Battery-5" idLabPos="-18,-22" labelrot="0" valLabPos="-10,10" valLabRot="0" Voltage="5 V" Resistance="0.001 Ω" />
+
+<item itemtype="Ground" CircId="Ground-7" mainComp="false" Show_id="false" Show_Val="false" Pos="864,460" rotation="0" hflip="1" vflip="1" label="Ground-7" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Ground" CircId="Ground-10" mainComp="false" Show_id="false" Show_Val="false" Pos="872,580" rotation="0" hflip="1" vflip="1" label="Ground-10" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Push" CircId="Push-11" mainComp="false" Show_id="false" Show_Val="false" Pos="828,560" rotation="0" hflip="1" vflip="1" label="Push-11" idLabPos="-12,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1" />
+
+<item itemtype="Node" CircId="Node-13" mainComp="false" Pos="800,560" />
+
+<item itemtype="Connector" uid="Connector-4" startpinid="Led-3-lPin" endpinid="Resistor-2-rPin" pointList="800,488,800,476" />
+
+<item itemtype="Connector" uid="Connector-6" startpinid="Battery-5-lPin" endpinid="Resistor-2-lPin" pointList="824,412,800,412,800,444" />
+
+<item itemtype="Connector" uid="Connector-8" startpinid="Battery-5-rPin" endpinid="Ground-7-Gnd" pointList="856,412,856,444,864,444" />
+
+<item itemtype="Connector" uid="Connector-9" startpinid="Led-3-rPin" endpinid="Node-13-0" pointList="800,520,800,560" />
+
+<item itemtype="Connector" uid="Connector-12" startpinid="Push-11-pinP0" endpinid="Node-13-1" pointList="812,560,800,560" />
+
+<item itemtype="Connector" uid="Connector-15" startpinid="Push-11-switch0pinN" endpinid="Ground-10-Gnd" pointList="844,560,872,560,872,564" />
+
+<item itemtype="Connector" uid="Connector-27" startpinid="Node-13-2" endpinid="mega168-1-PORTB4" pointList="800,560,732,560" />
+
+</circuit>

@@ -1,0 +1,32 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega168"</DEVICE>
+ <WORKING_DIR>c:\users\user\Documents\Atmel Studio\7.0\prac7\prac7\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>c:\users\user\Documents\Atmel Studio\7.0\prac7\prac7\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m168def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>c:\users\user\Documents\Atmel Studio\7.0\prac7\prac7\Debug\prac7.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>prac7.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>prac7.map</FILE>
+  <FILE>prac7.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <init><FILE>c:\users\user\Documents\Atmel Studio\7.0\prac7\prac7\main.asm</FILE><LINE>14</LINE></init>
+  <start><FILE>c:\users\user\Documents\Atmel Studio\7.0\prac7\prac7\main.asm</FILE><LINE>70</LINE></start>
+  <recv><FILE>c:\users\user\Documents\Atmel Studio\7.0\prac7\prac7\main.asm</FILE><LINE>30</LINE></recv>
+  <send><FILE>c:\users\user\Documents\Atmel Studio\7.0\prac7\prac7\main.asm</FILE><LINE>36</LINE></send>
+  <EEWrite><FILE>c:\users\user\Documents\Atmel Studio\7.0\prac7\prac7\main.asm</FILE><LINE>43</LINE></EEWrite>
+  <EERead><FILE>c:\users\user\Documents\Atmel Studio\7.0\prac7\prac7\main.asm</FILE><LINE>59</LINE></EERead>
+ </LABELS>
+</ASSEMBLER_INFO>

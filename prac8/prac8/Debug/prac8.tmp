@@ -1,0 +1,36 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega168"</DEVICE>
+ <WORKING_DIR>C:\Users\User\Documents\Atmel Studio\7.0\prac8\prac8\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac8\prac8\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m168def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac8\prac8\Debug\prac8.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>prac8.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>prac8.map</FILE>
+  <FILE>prac8.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <word><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac8\prac8\main.asm</FILE><LINE>14</LINE></word>
+  <strPtr><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac8\prac8\main.asm</FILE><LINE>15</LINE></strPtr>
+  <RESET><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac8\prac8\main.asm</FILE><LINE>27</LINE></RESET>
+  <RX_OK><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac8\prac8\main.asm</FILE><LINE>102</LINE></RX_OK>
+  <UD_OK><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac8\prac8\main.asm</FILE><LINE>60</LINE></UD_OK>
+  <TX_OK><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac8\prac8\main.asm</FILE><LINE>136</LINE></TX_OK>
+  <start><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac8\prac8\main.asm</FILE><LINE>57</LINE></start>
+  <STOP_RX><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac8\prac8\main.asm</FILE><LINE>90</LINE></STOP_RX>
+  <RX_EXIT><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac8\prac8\main.asm</FILE><LINE>81</LINE></RX_EXIT>
+  <STOP_TX><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac8\prac8\main.asm</FILE><LINE>124</LINE></STOP_TX>
+ </LABELS>
+</ASSEMBLER_INFO>

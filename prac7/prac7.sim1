@@ -1,0 +1,11 @@
+<circuit version="1.1.0-SR1" rev="2005" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="MCU" CircId="mega168-2" mainComp="false" Show_id="true" Show_Val="false" Pos="696,524" rotation="180" hflip="1" vflip="-1" label="mega168-2" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Program="prac7/Debug/prac7.hex" Auto_Load="false" saveEepr="true" Logic_Symbol="false" Rst_enabled="false" Ext_Osc="false" Wdt_enabled="false" Clk_Out="false" MainMcu="true" eeprom="49," SerialMon="-1" />
+
+<item itemtype="SerialTerm" CircId="SerialTerm-4" mainComp="false" Show_id="false" Show_Val="false" Pos="764,540" rotation="0" hflip="1" vflip="1" label="SerialTerm-4" idLabPos="-20,-32" labelrot="0" valLabPos="-16,20" valLabRot="0" Baudrate="9600 _Bd" DataBits="8 _bits" StopBits="1 _bits" SerialMon="false" />
+
+<item itemtype="Connector" uid="Connector-2" startpinid="SerialTerm-4-pin0" endpinid="mega168-2-PORTD0" pointList="740,532,728,532,728,540,704,540" />
+
+<item itemtype="Connector" uid="Connector-1" startpinid="mega168-2-PORTD1" endpinid="SerialTerm-4-pin1" pointList="704,548,740,548" />
+
+</circuit>

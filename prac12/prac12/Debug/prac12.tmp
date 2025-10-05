@@ -1,0 +1,48 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega168"</DEVICE>
+ <WORKING_DIR>C:\Users\User\Documents\Atmel Studio\7.0\prac12\prac12\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac12\prac12\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m168def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac12\prac12\Debug\prac12.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>prac12.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>prac12.map</FILE>
+  <FILE>prac12.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac12\prac12\main.asm</FILE><LINE>20</LINE></RESET>
+  <main_loop><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac12\prac12\main.asm</FILE><LINE>46</LINE></main_loop>
+  <scan_rows><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac12\prac12\main.asm</FILE><LINE>53</LINE></scan_rows>
+  <next_row><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac12\prac12\main.asm</FILE><LINE>118</LINE></next_row>
+  <col0><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac12\prac12\main.asm</FILE><LINE>107</LINE></col0>
+  <col1><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac12\prac12\main.asm</FILE><LINE>96</LINE></col1>
+  <col2><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac12\prac12\main.asm</FILE><LINE>85</LINE></col2>
+  <set_key_1><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac12\prac12\main.asm</FILE><LINE>129</LINE></set_key_1>
+  <set_key_4><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac12\prac12\main.asm</FILE><LINE>141</LINE></set_key_4>
+  <set_key_7><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac12\prac12\main.asm</FILE><LINE>153</LINE></set_key_7>
+  <set_key_star><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac12\prac12\main.asm</FILE><LINE>165</LINE></set_key_star>
+  <set_key_2><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac12\prac12\main.asm</FILE><LINE>133</LINE></set_key_2>
+  <set_key_5><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac12\prac12\main.asm</FILE><LINE>145</LINE></set_key_5>
+  <set_key_8><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac12\prac12\main.asm</FILE><LINE>157</LINE></set_key_8>
+  <set_key_0><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac12\prac12\main.asm</FILE><LINE>125</LINE></set_key_0>
+  <set_key_3><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac12\prac12\main.asm</FILE><LINE>137</LINE></set_key_3>
+  <set_key_6><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac12\prac12\main.asm</FILE><LINE>149</LINE></set_key_6>
+  <set_key_9><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac12\prac12\main.asm</FILE><LINE>161</LINE></set_key_9>
+  <set_key_sharp><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac12\prac12\main.asm</FILE><LINE>169</LINE></set_key_sharp>
+  <show_key><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac12\prac12\main.asm</FILE><LINE>173</LINE></show_key>
+  <clear_display><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac12\prac12\main.asm</FILE><LINE>181</LINE></clear_display>
+  <wait_loop><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac12\prac12\main.asm</FILE><LINE>186</LINE></wait_loop>
+ </LABELS>
+</ASSEMBLER_INFO>

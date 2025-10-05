@@ -1,0 +1,35 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega168"</DEVICE>
+ <WORKING_DIR>C:\Users\User\Documents\Atmel Studio\7.0\prac13_slave\prac13_slave\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac13_slave\prac13_slave\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m168def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac13_slave\prac13_slave\Debug\prac13_slave.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>prac13_slave.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>prac13_slave.map</FILE>
+  <FILE>prac13_slave.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <byte><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac13_slave\prac13_slave\main.asm</FILE><LINE>12</LINE></byte>
+  <RESET><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac13_slave\prac13_slave\main.asm</FILE><LINE>18</LINE></RESET>
+  <main_loop><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac13_slave\prac13_slave\main.asm</FILE><LINE>36</LINE></main_loop>
+  <uart_send><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac13_slave\prac13_slave\main.asm</FILE><LINE>50</LINE></uart_send>
+  <delay_500ms><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac13_slave\prac13_slave\main.asm</FILE><LINE>60</LINE></delay_500ms>
+  <wait_udre><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac13_slave\prac13_slave\main.asm</FILE><LINE>52</LINE></wait_udre>
+  <delay_10ms><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac13_slave\prac13_slave\main.asm</FILE><LINE>62</LINE></delay_10ms>
+  <loop2><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac13_slave\prac13_slave\main.asm</FILE><LINE>64</LINE></loop2>
+  <loop1><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac13_slave\prac13_slave\main.asm</FILE><LINE>66</LINE></loop1>
+ </LABELS>
+</ASSEMBLER_INFO>

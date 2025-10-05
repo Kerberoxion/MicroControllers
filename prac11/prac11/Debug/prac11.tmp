@@ -1,0 +1,33 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega168"</DEVICE>
+ <WORKING_DIR>C:\Users\User\Documents\Atmel Studio\7.0\prac11\prac11\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac11\prac11\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m168def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac11\prac11\Debug\prac11.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>prac11.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>prac11.map</FILE>
+  <FILE>prac11.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <ticks><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac11\prac11\main.asm</FILE><LINE>9</LINE></ticks>
+  <phase><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac11\prac11\main.asm</FILE><LINE>12</LINE></phase>
+  <RESET><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac11\prac11\main.asm</FILE><LINE>20</LINE></RESET>
+  <TIMER_ISR><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac11\prac11\main.asm</FILE><LINE>56</LINE></TIMER_ISR>
+  <start><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac11\prac11\main.asm</FILE><LINE>53</LINE></start>
+  <check_OFF><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac11\prac11\main.asm</FILE><LINE>81</LINE></check_OFF>
+  <end_ISR><FILE>C:\Users\User\Documents\Atmel Studio\7.0\prac11\prac11\main.asm</FILE><LINE>92</LINE></end_ISR>
+ </LABELS>
+</ASSEMBLER_INFO>
